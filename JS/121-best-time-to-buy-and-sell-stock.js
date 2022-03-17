@@ -83,3 +83,9 @@ var maxProfitCommented = function (prices) {
   // Return our maximum profit found
   return profit;
 };
+
+// console.log(maxProfitCommented([100, 1, 123, 120]))
+console.log(maxProfitCommented([100, 1, 123, 120])); // 122
+console.log(maxProfitCommented([100, 100, 100, 100])); // 0
+console.log(maxProfitCommented([100, 88, 44, 2])); // 0
+console.log(maxProfitCommented([100, 88, 99, 300])); // 212

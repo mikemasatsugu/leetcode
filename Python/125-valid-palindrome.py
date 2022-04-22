@@ -46,4 +46,12 @@ class Solution:
         return True
 
 
+
+
+
+
+
+
+
+
 # Intuition: remove non-alphanumeric characters and make case uniform. use two pointers to move from right and left to compare strings.  If they don't match, return False.  If we can traverse through all characters without returning False, return True
